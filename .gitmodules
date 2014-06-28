@@ -1,0 +1,6 @@
+[submodule "submodules/promise-polyfill"]
+	path = submodules/promise-polyfill
+	url = https://github.com/taylorhakes/promise-polyfill
+[submodule "submodules/crypto-js"]
+	path = submodules/crypto-js
+	url = https://github.com/tomyun/crypto-js.git
