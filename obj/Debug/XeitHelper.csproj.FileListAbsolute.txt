@@ -1,0 +1,6 @@
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\bin\XeitHelper.dll.config
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\bin\XeitHelper.dll
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\bin\XeitHelper.pdb
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\obj\Debug\XeitHelper.csprojResolveAssemblyReference.cache
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\obj\Debug\XeitHelper.dll
+C:\Users\sasch_000\Documents\Visual Studio 2013\Projects\XeitHelper\XeitHelper\obj\Debug\XeitHelper.pdb
