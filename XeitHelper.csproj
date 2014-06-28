@@ -23,8 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
-    <TypeScriptCompile Include="cryptojs.d.ts" />
-    <TypeScriptCompile Include="es6-promises.d.ts" />
+    <TypeScriptCompile Include="submodules\cryptojs.d.ts" />
+    <TypeScriptCompile Include="submodules\es6-promises.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
