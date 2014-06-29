@@ -1,7 +1,7 @@
 ﻿interface Window {
     crypto: Crypto;
 }
-interface CryptoOperation {
+interface Object {
     __proto__: any;
 }
 

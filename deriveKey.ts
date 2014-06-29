@@ -9,9 +9,23 @@ var _CryptoJSDeriveKeyFallbackMap = {
     "PBKDF2": CryptoJS.PBKDF2
 }
 
-function _deriveKey() {
+interface Pbkdf2Params extends Algorithm {
+    salt: ArrayBufferView;
+    iterations: number;
+    hash: Algorithm;
+}
 
+function _deriveKey(
+    algorithm: Algorithm,
+    baseKey: Key,
+    derivedKeyType: Algorithm,
+    extractable: boolean,
+    keyUsages: string[]) {
+    
+    
+    crypto.subtle.deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages);
 }
 
 function deriveKey() {
+
 }

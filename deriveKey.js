@@ -3,7 +3,8 @@
     "PBKDF2": CryptoJS.PBKDF2
 };
 
-function _deriveKey() {
+function _deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages) {
+    crypto.subtle.deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages);
 }
 
 function deriveKey() {
