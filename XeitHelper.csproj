@@ -23,6 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="derivekey.ts" />
+    <TypeScriptCompile Include="digest.ts" />
     <TypeScriptCompile Include="submodules\cryptojs.d.ts" />
     <TypeScriptCompile Include="submodules\es6-promises.d.ts" />
   </ItemGroup>
