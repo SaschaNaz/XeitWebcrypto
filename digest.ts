@@ -9,10 +9,7 @@
 Digests ArrayBuffer using W3C Web Cryptography
 */
 function _digest(algorithm: string, buffer: ArrayBufferView) {
-    var parameters: any[] = [algorithm];
-    if (buffer !== undefined)
-        parameters.push(buffer);
-    var operation = <CryptoOperation>crypto.subtle.digest.apply(crypto.subtle, parameters);
+    var operation = crypto.subtle.digest(algorithm, buffer);
 
     if (operation.__proto__ === Promise.prototype)
         return <Promise<any>><any>operation;

@@ -15,5 +15,3 @@ function _deriveKey() {
 
 function deriveKey() {
 }
-
-
